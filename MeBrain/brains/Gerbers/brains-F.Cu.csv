@@ -1,0 +1,21 @@
+### Module positions - created on 14/07/2015 10:49:55 ###
+### Printed by Pcbnew version pcbnew (2015-01-16 BZR 5376)-product
+## Unit = mm, Angle = deg.
+## Side : F.Cu
+# Ref    Val                  Package         PosX       PosY        Rot     Side
+C1       C                EEE1CA471UP_Capa   97.1550  -104.1400     180.0    F.Cu
+C2       10uF             C_0805            106.6800  -103.5050     270.0    F.Cu
+C3       22uF             C_0805            118.1100  -103.5050      90.0    F.Cu
+C4       C                C_0805            126.3650   -76.8350      90.0    F.Cu
+F1       FUSE             Surface_Mount_18  163.3220   -74.6760     270.0    F.Cu
+F2       FUSE             Surface_Mount_18  143.0020   -74.6760     270.0    F.Cu
+F3       FUSE             Surface_Mount_18  153.1620   -74.6760     270.0    F.Cu
+F4       FUSE             Surface_Mount_18  132.3340   -74.6760     270.0    F.Cu
+Fid      VAL**            Fid               101.6000   -76.8350       0.0    F.Cu
+Fid      VAL**            Fid               106.6800  -125.7300       0.0    F.Cu
+Fid      VAL**            Fid               161.2900  -111.1250       0.0    F.Cu
+G***     LOGO             MeArmLogo25mm     134.1120   -95.6310       0.0    F.Cu
+U1       WiiChuckCon      WiiChuck          116.0780  -119.6340       0.0    F.Cu
+U7       HM-11_Bluetooth  HM-11_BT          160.5280  -114.5540     180.0    F.Cu
+U8       AP1117_V_REG     SOT-223           112.3950   -99.3140     180.0    F.Cu
+## End

@@ -1,0 +1,59 @@
+Cmp-Mod V01 Created by Cvpcb (after 2015-mar-04 BZR unknown)-product   date = 28/05/2015 21:03:24
+
+BeginCmp
+TimeStamp = /5514241C;
+Reference = C1;
+ValeurCmp = C;
+IdModule  = Capacitors_ThroughHole:C_Disc_D3_P2.5;
+EndCmp
+
+BeginCmp
+TimeStamp = /55141FA0;
+Reference = S1;
+ValeurCmp = Slider_Pot;
+IdModule  = brains:Slider_Potentiometer;
+EndCmp
+
+BeginCmp
+TimeStamp = /551420C3;
+Reference = S2;
+ValeurCmp = Slider_Pot;
+IdModule  = brains:Slider_Potentiometer;
+EndCmp
+
+BeginCmp
+TimeStamp = /551421B1;
+Reference = S3;
+ValeurCmp = Slider_Pot;
+IdModule  = brains:Slider_Potentiometer;
+EndCmp
+
+BeginCmp
+TimeStamp = /551421B7;
+Reference = S4;
+ValeurCmp = Slider_Pot;
+IdModule  = brains:Slider_Potentiometer;
+EndCmp
+
+BeginCmp
+TimeStamp = /5567701A;
+Reference = SW1;
+ValeurCmp = SW_PUSH;
+IdModule  = brains:TacSwitch;
+EndCmp
+
+BeginCmp
+TimeStamp = /55677056;
+Reference = SW2;
+ValeurCmp = SW_PUSH;
+IdModule  = brains:TacSwitch;
+EndCmp
+
+BeginCmp
+TimeStamp = /55141E70;
+Reference = U1;
+ValeurCmp = JoyConnectISP;
+IdModule  = Pin_Headers:Pin_Header_Straight_2x05;
+EndCmp
+
+EndListe

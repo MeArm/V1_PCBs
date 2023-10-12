@@ -1,0 +1,7 @@
+### Module positions - created on 14/07/2015 10:49:55 ###
+### Printed by Pcbnew version pcbnew (2015-01-16 BZR 5376)-product
+## Unit = mm, Angle = deg.
+## Side : F.Cu
+# Ref    Val                  Package         PosX       PosY        Rot     Side
+G***     LOGO             MeArmLogo50mm     120.6500   -99.3140     180.0    B.Cu
+## End

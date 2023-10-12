@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name Brains)(type KiCad)(uri "C:/Dropbox/MeArm LTD/MeArm Design Files/MeBrain/brains.pretty")(options "")(descr ""))
+)

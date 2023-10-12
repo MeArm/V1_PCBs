@@ -1,0 +1,18 @@
+!Units of X-Y coordinates are in millimeters,,,,,
+component,x,y,r,component value,package
+C1,97.155,-104.14,180,470mF,EEE1CA471UP_Capa
+C2,106.68,-103.505,270,10uF,C_0805
+C3,118.11,-103.505,90,22uF,C_0805
+C4,126.365,-76.835,90,0.1uF,C_0805
+F1,163.322,-74.676,270,FUSE,Surface_Mount_18
+F2,143.002,-74.676,270,FUSE,Surface_Mount_18
+F3,153.162,-74.676,270,FUSE,Surface_Mount_18
+F4,132.334,-74.676,270,FUSE,Surface_Mount_18
+U8,112.395,-99.314,180,AP1117_V_REG,SOT-223
+
+FIDUCIALS SECTION,,,,,
+fiducial type,package,x,y,detection type,
+board,FIDUCIAL-1x2-STOP,101.6,-76.835,auto,
+board,FIDUCIAL-1x2-STOP,106.68,-125.73,auto,
+board,FIDUCIAL-1x2-STOP,161.29,-111.125,auto
+##,,,,End

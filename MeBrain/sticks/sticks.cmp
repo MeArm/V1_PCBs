@@ -1,0 +1,31 @@
+Cmp-Mod V01 Created by Cvpcb (2015-01-16 BZR 5376)-product   date = 26/03/2015 13:35:44
+
+BeginCmp
+TimeStamp = /5513FB6A;
+Reference = C1;
+ValeurCmp = C;
+IdModule  = Capacitors_ThroughHole:C_Disc_D3_P2.5;
+EndCmp
+
+BeginCmp
+TimeStamp = /5513FB2B;
+Reference = J1;
+ValeurCmp = JOYSTICK;
+IdModule  = Brains:JOYSTICKS;
+EndCmp
+
+BeginCmp
+TimeStamp = /5513FA9E;
+Reference = J2;
+ValeurCmp = JOYSTICK;
+IdModule  = Brains:JOYSTICKS;
+EndCmp
+
+BeginCmp
+TimeStamp = /5513F1F6;
+Reference = U1;
+ValeurCmp = JoyConnectISP;
+IdModule  = Pin_Headers:Pin_Header_Straight_2x05;
+EndCmp
+
+EndListe

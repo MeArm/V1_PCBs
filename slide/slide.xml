@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:/Users/phenoptix Mob2/Documents/Dropbox/MeArm LTD/Production/KiCad/slide/slide.sch</source>
+    <date>28/05/2015 20:37:18</date>
+    <tool>Eeschema (after 2015-mar-04 BZR unknown)-product</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>slide.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>JoyConnectISP</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_2x05</footprint>
+      <libsource lib="slide-cache" part="JoyConnectISP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55141E70</tstamp>
+    </comp>
+    <comp ref="S1">
+      <value>Slider_Pot</value>
+      <footprint>brains:Slider_Potentiometer</footprint>
+      <libsource lib="slide-cache" part="Slider_Pot"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55141FA0</tstamp>
+    </comp>
+    <comp ref="S2">
+      <value>Slider_Pot</value>
+      <footprint>brains:Slider_Potentiometer</footprint>
+      <libsource lib="slide-cache" part="Slider_Pot"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>551420C3</tstamp>
+    </comp>
+    <comp ref="S3">
+      <value>Slider_Pot</value>
+      <footprint>brains:Slider_Potentiometer</footprint>
+      <libsource lib="slide-cache" part="Slider_Pot"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>551421B1</tstamp>
+    </comp>
+    <comp ref="S4">
+      <value>Slider_Pot</value>
+      <footprint>brains:Slider_Potentiometer</footprint>
+      <libsource lib="slide-cache" part="Slider_Pot"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>551421B7</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>C</value>
+      <footprint>Capacitors_ThroughHole:C_Disc_D3_P2.5</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5514241C</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_PUSH</value>
+      <libsource lib="device" part="SW_PUSH"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5567701A</tstamp>
+    </comp>
+    <comp ref="SW2">
+      <value>SW_PUSH</value>
+      <libsource lib="device" part="SW_PUSH"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55677056</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="device" part="C">
+      <description>Condensateur non polarise</description>
+      <footprints>
+        <fp>SM*</fp>
+        <fp>C?</fp>
+        <fp>C1-1</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="slide-cache" part="JoyConnectISP">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">JoyConnectISP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="MOSI" type="input"/>
+        <pin num="2" name="VCC" type="input"/>
+        <pin num="3" name="A0" type="input"/>
+        <pin num="4" name="GND/A3" type="input"/>
+        <pin num="5" name="RST" type="input"/>
+        <pin num="6" name="GND/A2" type="input"/>
+        <pin num="7" name="SCK" type="input"/>
+        <pin num="8" name="GND/A1" type="input"/>
+        <pin num="9" name="MISO" type="input"/>
+        <pin num="10" name="GND" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="slide-cache" part="Slider_Pot">
+      <fields>
+        <field name="Reference">S</field>
+        <field name="Value">Slider_Pot</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="input"/>
+        <pin num="2" name="AOUT" type="input"/>
+        <pin num="3" name="VCC" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="SW_PUSH">
+      <description>Push Button</description>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_PUSH</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="device">
+      <uri>C:\Program Files\KiCad\share\library\device.lib</uri>
+    </library>
+    <library logical="slide-cache">
+      <uri>C:\Users\phenoptix Mob2\Documents\Dropbox\MeArm LTD\Production\KiCad\slide\slide-cache.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(U1-Pad7)">
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="2" name="Net-(U1-Pad5)">
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="3" name="VCC">
+      <node ref="U1" pin="2"/>
+      <node ref="S3" pin="3"/>
+      <node ref="S1" pin="3"/>
+      <node ref="S2" pin="3"/>
+      <node ref="S4" pin="3"/>
+      <node ref="C1" pin="1"/>
+    </net>
+    <net code="4" name="GND">
+      <node ref="S3" pin="1"/>
+      <node ref="S1" pin="1"/>
+      <node ref="S2" pin="1"/>
+      <node ref="S4" pin="1"/>
+      <node ref="U1" pin="10"/>
+      <node ref="C1" pin="2"/>
+      <node ref="SW2" pin="2"/>
+      <node ref="SW1" pin="2"/>
+    </net>
+    <net code="5" name="MISO">
+      <node ref="U1" pin="9"/>
+      <node ref="SW2" pin="1"/>
+    </net>
+    <net code="6" name="MOSI">
+      <node ref="U1" pin="1"/>
+      <node ref="SW1" pin="1"/>
+    </net>
+    <net code="7" name="A0">
+      <node ref="S1" pin="2"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="8" name="A1">
+      <node ref="U1" pin="8"/>
+      <node ref="S2" pin="2"/>
+    </net>
+    <net code="9" name="A2">
+      <node ref="S3" pin="2"/>
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="10" name="A3">
+      <node ref="U1" pin="4"/>
+      <node ref="S4" pin="2"/>
+    </net>
+  </nets>
+</export>

@@ -1,0 +1,315 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:slide-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L JoyConnectISP U1
+U 1 1 55141E70
+P 4850 3100
+F 0 "U1" H 4850 3150 60  0000 C CNN
+F 1 "JoyConnectISP" H 4850 3250 60  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x05" H 4850 3100 60  0001 C CNN
+F 3 "" H 4850 3100 60  0000 C CNN
+	1    4850 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Slider_Pot S1
+U 1 1 55141FA0
+P 7750 2700
+F 0 "S1" H 7750 2350 60  0000 C CNN
+F 1 "Slider_Pot" H 7750 3050 60  0000 C CNN
+F 2 "brains:Slider_Potentiometer" H 7750 2400 60  0001 C CNN
+F 3 "" H 7750 2400 60  0000 C CNN
+	1    7750 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Slider_Pot S2
+U 1 1 551420C3
+P 7750 3550
+F 0 "S2" H 7750 3200 60  0000 C CNN
+F 1 "Slider_Pot" H 7750 3900 60  0000 C CNN
+F 2 "brains:Slider_Potentiometer" H 7750 3250 60  0001 C CNN
+F 3 "" H 7750 3250 60  0000 C CNN
+	1    7750 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Slider_Pot S3
+U 1 1 551421B1
+P 7750 4350
+F 0 "S3" H 7750 4000 60  0000 C CNN
+F 1 "Slider_Pot" H 7750 4700 60  0000 C CNN
+F 2 "brains:Slider_Potentiometer" H 7750 4050 60  0001 C CNN
+F 3 "" H 7750 4050 60  0000 C CNN
+	1    7750 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Slider_Pot S4
+U 1 1 551421B7
+P 7750 5200
+F 0 "S4" H 7750 4850 60  0000 C CNN
+F 1 "Slider_Pot" H 7750 5550 60  0000 C CNN
+F 2 "brains:Slider_Potentiometer" H 7750 4900 60  0001 C CNN
+F 3 "" H 7750 4900 60  0000 C CNN
+	1    7750 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR01
+U 1 1 551421E7
+P 7550 2550
+F 0 "#PWR01" H 7550 2300 60  0001 C CNN
+F 1 "GND" H 7550 2400 60  0000 C CNN
+F 2 "" H 7550 2550 60  0000 C CNN
+F 3 "" H 7550 2550 60  0000 C CNN
+	1    7550 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR02
+U 1 1 55142227
+P 7550 3400
+F 0 "#PWR02" H 7550 3150 60  0001 C CNN
+F 1 "GND" H 7550 3250 60  0000 C CNN
+F 2 "" H 7550 3400 60  0000 C CNN
+F 3 "" H 7550 3400 60  0000 C CNN
+	1    7550 3400
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR03
+U 1 1 55142241
+P 7550 4200
+F 0 "#PWR03" H 7550 3950 60  0001 C CNN
+F 1 "GND" H 7550 4050 60  0000 C CNN
+F 2 "" H 7550 4200 60  0000 C CNN
+F 3 "" H 7550 4200 60  0000 C CNN
+	1    7550 4200
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR04
+U 1 1 55142247
+P 7550 5050
+F 0 "#PWR04" H 7550 4800 60  0001 C CNN
+F 1 "GND" H 7550 4900 60  0000 C CNN
+F 2 "" H 7550 5050 60  0000 C CNN
+F 3 "" H 7550 5050 60  0000 C CNN
+	1    7550 5050
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR05
+U 1 1 5514226D
+P 5500 3650
+F 0 "#PWR05" H 5500 3400 60  0001 C CNN
+F 1 "GND" H 5500 3500 60  0000 C CNN
+F 2 "" H 5500 3650 60  0000 C CNN
+F 3 "" H 5500 3650 60  0000 C CNN
+	1    5500 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR06
+U 1 1 55142281
+P 5500 3250
+F 0 "#PWR06" H 5500 3100 60  0001 C CNN
+F 1 "VCC" H 5500 3400 60  0000 C CNN
+F 2 "" H 5500 3250 60  0000 C CNN
+F 3 "" H 5500 3250 60  0000 C CNN
+	1    5500 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR07
+U 1 1 55142295
+P 7550 2850
+F 0 "#PWR07" H 7550 2700 60  0001 C CNN
+F 1 "VCC" H 7550 3000 60  0000 C CNN
+F 2 "" H 7550 2850 60  0000 C CNN
+F 3 "" H 7550 2850 60  0000 C CNN
+	1    7550 2850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L VCC #PWR08
+U 1 1 551422EB
+P 7550 3700
+F 0 "#PWR08" H 7550 3550 60  0001 C CNN
+F 1 "VCC" H 7550 3850 60  0000 C CNN
+F 2 "" H 7550 3700 60  0000 C CNN
+F 3 "" H 7550 3700 60  0000 C CNN
+	1    7550 3700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L VCC #PWR09
+U 1 1 551422FB
+P 7550 4500
+F 0 "#PWR09" H 7550 4350 60  0001 C CNN
+F 1 "VCC" H 7550 4650 60  0000 C CNN
+F 2 "" H 7550 4500 60  0000 C CNN
+F 3 "" H 7550 4500 60  0000 C CNN
+	1    7550 4500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L VCC #PWR010
+U 1 1 5514230B
+P 7550 5350
+F 0 "#PWR010" H 7550 5200 60  0001 C CNN
+F 1 "VCC" H 7550 5500 60  0000 C CNN
+F 2 "" H 7550 5350 60  0000 C CNN
+F 3 "" H 7550 5350 60  0000 C CNN
+	1    7550 5350
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 4200 3450
+NoConn ~ 4200 3550
+Text GLabel 7550 2700 0    60   Input ~ 0
+A0
+Text GLabel 4200 3350 0    60   Input ~ 0
+A0
+Text GLabel 7550 3550 0    60   Input ~ 0
+A1
+Text GLabel 7550 4350 0    60   Input ~ 0
+A2
+Text GLabel 7550 5200 0    60   Input ~ 0
+A3
+Text GLabel 5500 3550 2    60   Input ~ 0
+A1
+Text GLabel 5500 3450 2    60   Input ~ 0
+A2
+Text GLabel 5500 3350 2    60   Input ~ 0
+A3
+$Comp
+L C C1
+U 1 1 5514241C
+P 6450 3550
+F 0 "C1" H 6500 3650 50  0000 L CNN
+F 1 "C" H 6500 3450 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Disc_D3_P2.5" H 6488 3400 30  0001 C CNN
+F 3 "" H 6450 3550 60  0000 C CNN
+	1    6450 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR011
+U 1 1 55143711
+P 6450 3750
+F 0 "#PWR011" H 6450 3500 60  0001 C CNN
+F 1 "GND" H 6450 3600 60  0000 C CNN
+F 2 "" H 6450 3750 60  0000 C CNN
+F 3 "" H 6450 3750 60  0000 C CNN
+	1    6450 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR012
+U 1 1 55143725
+P 6450 3350
+F 0 "#PWR012" H 6450 3200 60  0001 C CNN
+F 1 "VCC" H 6450 3500 60  0000 C CNN
+F 2 "" H 6450 3350 60  0000 C CNN
+F 3 "" H 6450 3350 60  0000 C CNN
+	1    6450 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH SW1
+U 1 1 5567701A
+P 6350 2350
+F 0 "SW1" H 6500 2460 50  0000 C CNN
+F 1 "SW_PUSH" H 6350 2270 50  0000 C CNN
+F 2 "brains:TacSwitch" H 6350 2350 60  0001 C CNN
+F 3 "" H 6350 2350 60  0000 C CNN
+	1    6350 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH SW2
+U 1 1 55677056
+P 6350 2650
+F 0 "SW2" H 6500 2760 50  0000 C CNN
+F 1 "SW_PUSH" H 6350 2570 50  0000 C CNN
+F 2 "brains:TacSwitch" H 6350 2650 60  0001 C CNN
+F 3 "" H 6350 2650 60  0000 C CNN
+	1    6350 2650
+	1    0    0    -1  
+$EndComp
+Text GLabel 4200 3250 0    60   Input ~ 0
+MOSI
+Text GLabel 4200 3650 0    60   Input ~ 0
+MISO
+Text GLabel 6050 2350 0    60   Input ~ 0
+MOSI
+Text GLabel 6050 2650 0    60   Input ~ 0
+MISO
+$Comp
+L VCC #PWR?
+U 1 1 55895EFE
+P 6650 2350
+F 0 "#PWR?" H 6650 2200 60  0001 C CNN
+F 1 "VCC" H 6650 2500 60  0000 C CNN
+F 2 "" H 6650 2350 60  0000 C CNN
+F 3 "" H 6650 2350 60  0000 C CNN
+	1    6650 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR?
+U 1 1 55895F12
+P 6650 2650
+F 0 "#PWR?" H 6650 2500 60  0001 C CNN
+F 1 "VCC" H 6650 2800 60  0000 C CNN
+F 2 "" H 6650 2650 60  0000 C CNN
+F 3 "" H 6650 2650 60  0000 C CNN
+	1    6650 2650
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

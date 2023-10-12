@@ -1,0 +1,45 @@
+Cmp-Mod V01 Created by Cvpcb (2015-01-16 BZR 5376)-product   date = 2/9/2016 3:44:47 PM
+
+BeginCmp
+TimeStamp = /56BA062F;
+Reference = CON1;
+ValeurCmp = BARREL_JACK;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /56BA02B8;
+Reference = U1;
+ValeurCmp = PIGPIO;
+IdModule  = Pin_Headers:Pin_Header_Straight_2x13;
+EndCmp
+
+BeginCmp
+TimeStamp = /56BA03F0;
+Reference = U2;
+ValeurCmp = SERVO;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x03;
+EndCmp
+
+BeginCmp
+TimeStamp = /56BA04D1;
+Reference = U3;
+ValeurCmp = SERVO;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x03;
+EndCmp
+
+BeginCmp
+TimeStamp = /56BA0526;
+Reference = U4;
+ValeurCmp = SERVO;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x03;
+EndCmp
+
+BeginCmp
+TimeStamp = /56BA0563;
+Reference = U5;
+ValeurCmp = SERVO;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x03;
+EndCmp
+
+EndListe

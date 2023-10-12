@@ -1,0 +1,66 @@
+### Module positions - created on 14/07/2015 10:44:54 ###
+### Printed by Pcbnew version pcbnew (2015-01-16 BZR 5376)-product
+## Unit = mm, Angle = deg.
+## Side : F.Cu
+# Ref    Val                  Package         PosX       PosY        Rot     Side
+C1       C                EEE1CA471UP_Capa  147.1900  -130.7250     180.0    F.Cu
+C1       C                EEE1CA471UP_Capa  147.1900   -68.2250     180.0    F.Cu
+C1       C                EEE1CA471UP_Capa   54.6900  -130.7250     180.0    F.Cu
+C1       C                EEE1CA471UP_Capa   54.6900   -68.2250     180.0    F.Cu
+C2       10uF             C_0805             64.2150   -67.5900     270.0    F.Cu
+C2       10uF             C_0805            156.7150  -130.0900     270.0    F.Cu
+C2       10uF             C_0805            156.7150   -67.5900     270.0    F.Cu
+C2       10uF             C_0805             64.2150  -130.0900     270.0    F.Cu
+C3       22uF             C_0805             75.6450   -67.5900      90.0    F.Cu
+C3       22uF             C_0805            168.1450  -130.0900      90.0    F.Cu
+C3       22uF             C_0805            168.1450   -67.5900      90.0    F.Cu
+C3       22uF             C_0805             75.6450  -130.0900      90.0    F.Cu
+C4       C                C_0805            176.4000   -40.9200      90.0    F.Cu
+C4       C                C_0805             83.9000  -103.4200      90.0    F.Cu
+C4       C                C_0805            176.4000  -103.4200      90.0    F.Cu
+C4       C                C_0805             83.9000   -40.9200      90.0    F.Cu
+F1       FUSE             Surface_Mount_18  213.3570  -101.2610     270.0    F.Cu
+F1       FUSE             Surface_Mount_18  120.8570  -101.2610     270.0    F.Cu
+F1       FUSE             Surface_Mount_18  120.8570   -38.7610     270.0    F.Cu
+F1       FUSE             Surface_Mount_18  213.3570   -38.7610     270.0    F.Cu
+F2       FUSE             Surface_Mount_18  193.0370  -101.2610     270.0    F.Cu
+F2       FUSE             Surface_Mount_18  193.0370   -38.7610     270.0    F.Cu
+F2       FUSE             Surface_Mount_18  100.5370  -101.2610     270.0    F.Cu
+F2       FUSE             Surface_Mount_18  100.5370   -38.7610     270.0    F.Cu
+F3       FUSE             Surface_Mount_18  110.6970  -101.2610     270.0    F.Cu
+F3       FUSE             Surface_Mount_18  203.1970  -101.2610     270.0    F.Cu
+F3       FUSE             Surface_Mount_18  110.6970   -38.7610     270.0    F.Cu
+F3       FUSE             Surface_Mount_18  203.1970   -38.7610     270.0    F.Cu
+F4       FUSE             Surface_Mount_18   89.8690  -101.2610     270.0    F.Cu
+F4       FUSE             Surface_Mount_18  182.3690  -101.2610     270.0    F.Cu
+F4       FUSE             Surface_Mount_18   89.8690   -38.7610     270.0    F.Cu
+F4       FUSE             Surface_Mount_18  182.3690   -38.7610     270.0    F.Cu
+Fid      VAL**            Fid               151.6350   -40.9200       0.0    F.Cu
+Fid      VAL**            Fid               118.8250   -75.2100       0.0    F.Cu
+Fid      VAL**            Fid                59.1350   -40.9200       0.0    F.Cu
+Fid      VAL**            Fid                64.2150   -89.8150       0.0    F.Cu
+Fid      VAL**            Fid               211.3250   -75.2100       0.0    F.Cu
+Fid      VAL**            Fid               118.8250  -137.7100       0.0    F.Cu
+Fid      VAL**            Fid                64.2150  -152.3150       0.0    F.Cu
+Fid      VAL**            Fid                59.1350  -103.4200       0.0    F.Cu
+Fid      VAL**            Fid               151.6350  -103.4200       0.0    F.Cu
+Fid      VAL**            Fid               211.3250  -137.7100       0.0    F.Cu
+Fid      VAL**            Fid               156.7150  -152.3150       0.0    F.Cu
+Fid      VAL**            Fid               156.7150   -89.8150       0.0    F.Cu
+G***     LOGO             MeArmLogo25mm      91.6470   -59.7160       0.0    F.Cu
+G***     LOGO             MeArmLogo25mm     184.1470  -122.2160       0.0    F.Cu
+G***     LOGO             MeArmLogo25mm     184.1470   -59.7160       0.0    F.Cu
+G***     LOGO             MeArmLogo25mm      91.6470  -122.2160       0.0    F.Cu
+U1       WiiChuckCon      WiiChuck          166.1130  -146.2190       0.0    F.Cu
+U1       WiiChuckCon      WiiChuck           73.6130   -83.7190       0.0    F.Cu
+U1       WiiChuckCon      WiiChuck           73.6130  -146.2190       0.0    F.Cu
+U1       WiiChuckCon      WiiChuck          166.1130   -83.7190       0.0    F.Cu
+U7       HM-11_Bluetooth  HM-11_BT          118.0630  -141.1390     180.0    F.Cu
+U7       HM-11_Bluetooth  HM-11_BT          210.5630  -141.1390     180.0    F.Cu
+U7       HM-11_Bluetooth  HM-11_BT          210.5630   -78.6390     180.0    F.Cu
+U7       HM-11_Bluetooth  HM-11_BT          118.0630   -78.6390     180.0    F.Cu
+U8       AP1117_V_REG     SOT-223            69.9300   -63.3990     180.0    F.Cu
+U8       AP1117_V_REG     SOT-223            69.9300  -125.8990     180.0    F.Cu
+U8       AP1117_V_REG     SOT-223           162.4300   -63.3990     180.0    F.Cu
+U8       AP1117_V_REG     SOT-223           162.4300  -125.8990     180.0    F.Cu
+## End

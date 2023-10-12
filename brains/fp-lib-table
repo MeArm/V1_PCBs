@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name Brains)(type KiCad)(uri "C:\\Users\\phenoptix Mob2\\Documents\\Dropbox\\MeArm LTD\\Production\\KiCad\\brains.pretty")(options "")(descr "Specific Footprints"))
+)
